@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spoticry.Core\Spoticry.Core.csproj" />
+    <ProjectReference Include="..\Spoticry.Domain\Spoticry.Domain.csproj" />
+    <ProjectReference Include="..\Spotiticry.Repository\Spotiticry.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
